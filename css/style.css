@@ -29,3 +29,22 @@
   color: #fff;
   padding: 10px 20px;
 }
+
+#navbar-container ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+	left: 50%;
+}
+
+#navbar-container ul{
+		list-style-type: none;
+		background-color: blue;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+}
+
+#navbar-container ul li a:hover {
+	background-color: #000;
+}
